@@ -27,11 +27,11 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "lQnEXrM7BtSuJqy6xraVg259Zbo2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "149c31b8f172927a3abf62c40f6db21bb79e5d01")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002092756498"))
