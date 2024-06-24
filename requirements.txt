@@ -3,7 +3,7 @@ pyrogram
 TgCrypto
 pyromod
 # --- For-Database ------------ #
-pymongo
+pymongo[srv]==3.12.3
 motor
 umongo
 dnspython
