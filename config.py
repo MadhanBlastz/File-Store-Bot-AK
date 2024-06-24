@@ -5,18 +5,18 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5084260721:AAEG3ITMWUUb3eBG0_xAJ_pDH_oH8XVgiNM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7350937259:AAFkZxY3SrJjuNk4zTvbDfskI6IBPNvcMtg")
 
-APP_ID = int(os.environ.get("APP_ID", "11450835"))
+APP_ID = int(os.environ.get("APP_ID", "21661450"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "0fadb61feae6ccf016932823bbf1565c")
+API_HASH = os.environ.get("API_HASH", "79612bc71908f95372808520a7eeee74")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001752842454"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002092756498"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1254785184"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2021408974"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -34,7 +34,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001627812746"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002092756498"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴛᴏᴋᴇɴ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @team_netflix</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1254785184").split()):
+    for x in (os.environ.get("ADMINS", "2021408974").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @codeflix_bots"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1254785184)
+ADMINS.append(2021408974)
 
 LOG_FILE_NAME = "codeflixbot.txt"
 
